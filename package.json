@@ -27,7 +27,7 @@
     "webpack-merge": "^5.10.0"
   },
   "version": "1.0.0",
-  "description": "My webpack project",
+  "description": "this is a chrome extension template power by webpack,react,unocss...",
   "name": "chrome-extension-template",
   "scripts": {
     "build": "webpack --mode=production --node-env=production",

@@ -15,8 +15,8 @@ const config: webpack.Configuration = {
     mode: 'development',
     entry: {
         popup: './src/popup',
-        background: './src/background',
-        contentScripts: './src/contentScripts',
+        background: ['./src/background'],
+        contentScripts: ['./src/contentScripts'],
     },
     output: {
         // publicPath: '',

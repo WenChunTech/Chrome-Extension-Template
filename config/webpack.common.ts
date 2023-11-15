@@ -19,7 +19,6 @@ const config: webpack.Configuration = {
         contentScripts: ['./src/contentScripts'],
     },
     output: {
-        // publicPath: '',
         path: path.resolve(rootDir, './dist/js'),
         filename: '[name].js',
     },
